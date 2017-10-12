@@ -1,0 +1,20 @@
+python main.py --adjacency='data/datasets/gpcr_admat_dgc.txt' --drug='data/datasets/gpcr_simmat_dc.txt' --gene='data/datasets/gpcr_simmat_dg.txt'
+
+
+log:
+gpcr:
+Train: auc:1.000000, aupr: 0.999984, auc_conf:0.000001, aupr_conf:0.000032, Time:3635.869959
+Test: auc:0.939179, aupr: 0.710200, auc_conf:0.006171, aupr_conf:0.013464, Time:3635.870040
+############################################################################
+nr:
+Train: auc:0.999997, aupr: 0.999896, auc_conf:0.000004, aupr_conf:0.000109, Time:3769.404473
+Test: auc:0.981974, aupr: 0.911648, auc_conf:0.002365, aupr_conf:0.007509, Time:3769.404492
+############################################################################
+ic:
+Train: auc:1.000000, aupr: 0.999999, auc_conf:0.000000, aupr_conf:0.000002, Time:3768.910286
+Test: auc:0.981123, aupr: 0.915269, auc_conf:0.002187, aupr_conf:0.006073, Time:3768.910329
+############################################################################
+e:
+Train: auc:0.996050, aupr: 0.943817, auc_conf:0.001418, aupr_conf:0.010964, Time:5207.107461
+Test: auc:0.969812, aupr: 0.792365, auc_conf:0.002496, aupr_conf:0.008313, Time:5207.107489
+
